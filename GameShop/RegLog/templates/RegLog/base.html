@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% block title %}
+      <title>BASE_TEMPLATE</title>
+    {% endblock %}
+    <link type="text/css" href="{% static 'RegLog/css/register.css' %}" rel="stylesheet" />
+</head>
+<body>
+  <header>Header</header>
+
+  {% block content %}
+  {% endblock %}
+
+  <footer></footer>
+</body>
+</html>
