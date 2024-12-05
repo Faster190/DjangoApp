@@ -23,8 +23,9 @@ _________________________________
 ### Скриншоты работы программы:
 
 Сайт:
-![image](https://github.com/user-attachments/assets/322b0a4b-79b5-43af-9605-084130865047)
+![image](https://github.com/user-attachments/assets/f96d48e3-1f36-49a0-b42a-015871acfce1)
 ![image](https://github.com/user-attachments/assets/1d1e68d1-b6b1-4a97-a2a4-ae87df7dc83c)
+![image](https://github.com/user-attachments/assets/59664023-541a-41ee-a133-7d385372f525)
 ![image](https://github.com/user-attachments/assets/dd8bcea4-82b5-4990-bfa4-5434e89925cf)
 ![image](https://github.com/user-attachments/assets/212f9d1e-4462-48d1-ad2c-0ec63832fa3c)
 
