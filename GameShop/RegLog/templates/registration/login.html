@@ -27,15 +27,11 @@
             </ul>
         </div>
           <div id="bl">
-            <button type="submit">Отправить</button>
-            <a href="{% url 'register' %}"><button type="button">Регистрация</button></a>
+            <button type="submit">Войти</button>
           </div>
 
-          {{ form.non_field_errors }}
           <div id="error">
-            {% for i in form %}
-                {{ i.errors }}
-            {% endfor %}
+            <h2>{{ form.non_field_errors }}</h2>
           </div>
       </div>
     </form>

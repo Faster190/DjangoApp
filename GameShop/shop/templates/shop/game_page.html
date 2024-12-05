@@ -19,6 +19,7 @@
     <p>Издатель: {{ game.publisher }}</p>
     <p>Вес: {{ game.size }} ГБ</p>
     <h2>Цена: {{ game.cost }} руб.</h2>
+    <a href="https://ya.ru/search/?text=купить {{ game.title }}"><button>Купить</button></a>
     <p id="description">{{ game.description|linebreaksbr }}</p>
 </div>
 {% endblock %}

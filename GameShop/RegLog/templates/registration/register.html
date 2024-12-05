@@ -39,11 +39,11 @@
                 </div>
 
                 <div id="bl">
-                    <button type="submit">Отправить</button>
+                    <button type="submit">Зарегистрироваться</button>
                 </div>
                 <div id="error">
                         {% for i in form %}
-                            {{ i.errors }}
+                    <h2>{{ i.errors }}</h2>
                         {% endfor %}
                 </div>
             </div>
