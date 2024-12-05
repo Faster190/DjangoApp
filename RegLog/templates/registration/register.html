@@ -1,0 +1,51 @@
+{% extends "shop/main.html" %}
+{% load static %}
+
+{% block title %}
+ <title>Registration</title>
+{% endblock %}
+<link type="text/css" href="{% static 'RegLog/css/register.css' %}" rel="stylesheet" />
+
+{% block genre %}
+{% endblock %}
+
+{% block content %}
+    <form method="post">
+        {% csrf_token %}
+            <div class="log">
+                <div id="reg">
+                    <ul>
+                        <li>
+                            <label for="login">Введите логин:</label>
+                            <input id="login" type="text" name="username" maxlength="30" required>
+                        </li>
+
+                        <li>
+                            <label for="pass">Введите пароль:</label>
+                            <input id="pass" type="password" name="password1" minlength="8" required>
+                        </li>
+
+                        <li>
+                            <label for="pass2">Повторите пароль:</label>
+                            <input id="pass2" type="password" name="password2" minlength="8" required>
+                        </li>
+
+                        <li>
+                            <label for="mail">Введите электронную почту:</label>
+                            <input id="mail" type="email" name="email" required>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div id="bl">
+                    <button type="submit">Зарегистрироваться</button>
+                </div>
+                <div id="error">
+                        {% for i in form %}
+                    <h2>{{ i.errors }}</h2>
+                        {% endfor %}
+                </div>
+            </div>
+    </form>
+{% endblock %}
